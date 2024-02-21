@@ -1,0 +1,73 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+\usepackage{gvv}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+%\newtheorem{thm}{Theorem}[section] 
+%\newtheorem{defn}[thm]{Definition}
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+%\bibliographystyle{ieeetr}
+\begin{document}
+%
+
+\bibliographystyle{IEEEtran}
+
+
+\vspace{3cm}
+
+\title{
+%  \logo{
+GATE AE-62 (2022)
+
+\large{EE:1205 \brak{Signals  Systems}}
+
+Indian Institute of Technology, Hyderabad
+%  }
+}
+\author{Md Ayaan Ashraf
+
+EE23BTECH11041
+}  
+\maketitle
+\newpage
+\bigskip
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+%\renewcommand{\theequation}{\theenumi}
+\section*{\textit{\textbf{Question}}}
+A damper with damping coefficient, $c$, is attached to a mass of $5$\quad \text{kg} and spring of stiffness  $5$\quad \text{kN/m} as shown in figure. The system undergoes under-damped oscillations.
+If the ratio of the $3^{rd}$ amplitude to the $4^{th}$ amplitude of oscillations is ${1.5}$, the value of $c$ is ?
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{figs/fig1.png}
+\end{figure}
+
+\hfill {(GATE AE-62 (2022))}
+\end{document}
